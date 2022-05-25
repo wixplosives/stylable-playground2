@@ -1,14 +1,4 @@
 /*!
- * buildToken
- * Builds OAuth token prefix (helper function)
- *
- * @name buildToken
- * @function
- * @param {GitUrl} obj The parsed Git url object.
- * @return {String} token prefix
- */
-
-/*!
  * fill-range <https://github.com/jonschlinkert/fill-range>
  *
  * Copyright (c) 2014-present, Jon Schlinkert.
@@ -28,5 +18,3 @@
  * Copyright (c) 2015-present, Jon Schlinkert.
  * Released under the MIT License.
  */
-
-/*! https://mths.be/cssesc v3.0.0 by @mathias */
