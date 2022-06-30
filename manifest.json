@@ -776,7 +776,8 @@
           "gui",
           "typescript-assets",
           "typescript",
-          "file-assets"
+          "file-assets",
+          "analytics"
         ],
         "filePath": "@wixc3/file-components-feature/dist/feature/file-components.feature",
         "envFilePaths": {
