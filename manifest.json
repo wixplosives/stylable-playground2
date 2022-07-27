@@ -140,8 +140,7 @@
           "engine-core/communication",
           "gui",
           "actions",
-          "engine-resources/resource",
-          "analytics"
+          "engine-resources/resource"
         ],
         "filePath": "@wixc3/code-execution-feature/dist/feature/code-execution.feature",
         "envFilePaths": {
@@ -461,6 +460,7 @@
       {
         "contextFilePaths": {},
         "dependencies": [
+          "code-execution",
           "project",
           "project-ui"
         ],
@@ -620,20 +620,6 @@
       }
     ],
     [
-      "analytics",
-      {
-        "contextFilePaths": {},
-        "dependencies": [],
-        "filePath": "@wixc3/analytics-feature/dist/feature/analytics.feature",
-        "envFilePaths": {},
-        "preloadFilePaths": {},
-        "exportedEnvs": [],
-        "resolvedContexts": {},
-        "packageName": "@wixc3/analytics-feature",
-        "scopedName": "analytics"
-      }
-    ],
-    [
       "actions",
       {
         "contextFilePaths": {},
@@ -647,6 +633,20 @@
         "resolvedContexts": {},
         "packageName": "@wixc3/actions-feature",
         "scopedName": "actions"
+      }
+    ],
+    [
+      "analytics",
+      {
+        "contextFilePaths": {},
+        "dependencies": [],
+        "filePath": "@wixc3/analytics-feature/dist/feature/analytics.feature",
+        "envFilePaths": {},
+        "preloadFilePaths": {},
+        "exportedEnvs": [],
+        "resolvedContexts": {},
+        "packageName": "@wixc3/analytics-feature",
+        "scopedName": "analytics"
       }
     ],
     [
@@ -716,6 +716,7 @@
       {
         "contextFilePaths": {},
         "dependencies": [
+          "code-execution",
           "project",
           "git-revision",
           "file-components",
@@ -769,6 +770,7 @@
       {
         "contextFilePaths": {},
         "dependencies": [
+          "code-execution",
           "project",
           "simple-ast",
           "demo-discovery",
