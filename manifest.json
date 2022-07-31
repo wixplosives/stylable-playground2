@@ -802,7 +802,8 @@
         "contextFilePaths": {},
         "dependencies": [
           "project",
-          "git-commands"
+          "git-commands",
+          "file-assets"
         ],
         "filePath": "@wixc3/git-revision-feature/dist/feature/git-revision.feature",
         "envFilePaths": {
