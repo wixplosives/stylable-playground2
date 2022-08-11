@@ -745,7 +745,6 @@
       {
         "contextFilePaths": {},
         "dependencies": [
-          "code-execution",
           "project",
           "typescript",
           "engine-core/communication"
