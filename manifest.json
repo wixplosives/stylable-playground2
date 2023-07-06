@@ -1191,7 +1191,7 @@
       }
     ]
   ],
-  "defaultConfigName": "stylable-playground/example",
+  "defaultConfigName": "stylable-playground/production",
   "defaultFeatureName": "stylable-playground",
   "entryPoints": {}
 }
